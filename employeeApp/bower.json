@@ -1,0 +1,22 @@
+{
+  "name": "employeeApp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iamvenkat45/employeeMgmt",
+  "description": "employee app",
+  "main": "app.js",
+  "authors": [
+    "venkatsandeep"
+  ],
+  "license": "y",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.0",
+    "bootstrap": "~3.3.4"
+  }
+}
