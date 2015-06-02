@@ -1,0 +1,37 @@
+<div class="outerContainer">
+    <div ui-view="header"></div>
+    <div class="innerContainer contentContainer">
+        <div id="section">
+            <div class="tilesList clearfix">
+                <a class="tile searchEmployeeTile clearfix" ui-sref="employee">
+                    <div class="tileIcon">
+                        <img src="../images/search.png">
+                        <p>Search</p>
+                    </div>
+                    <div class="tileDescription">
+                        <p>Search employee in the organization</p>
+                    </div>
+                </a>
+                <a class="tile addEmployeeTile" ui-sref="employee">
+                    <div class="tileIcon clearfix">
+                        <img src="../images/add_user.png">
+                        <p>Add Employee</p>
+                    </div>
+                    <div class="tileDescription">
+                        <p>Add a new employee </p>
+                    </div>
+                </a>
+                <a class="tile deleteEmployeeTile" ui-sref="employee">
+                    <div class="tileIcon clearfix">
+                        <img src="../images/delete_user.png">
+                        <p>Delete Employee</p>
+                    </div>
+                    <div class="tileDescription">
+                        <p>Delete the employee </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div ui-view="footer"></div>
+</div>

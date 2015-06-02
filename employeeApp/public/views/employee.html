@@ -1,0 +1,31 @@
+<div class="outerContainer">
+    <div ui-view="header"></div>
+    <div class="innerContainer contentContainer clearfix">
+        <div id="sideMenuSection">
+            <ul>
+                <li>
+                    <a ui-sref-active="menuLinkActive" ui-sref="employee.search">
+                        <img src="../images/search.png">
+                        <p>Search</p>
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref-active="menuLinkActive" ui-sref="employee.add">
+                        <img src="../images/add_user.png">
+                        <p>Add Employee</p>
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref-active="menuLinkActive" ui-sref="employee.delete">
+                        <img src="../images/delete_user.png">
+                        <p>Delete Employee</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="contentWrapper" ui-view>
+
+        </div>
+    </div>
+    <div ui-view="footer"></div>
+</div>

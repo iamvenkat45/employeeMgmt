@@ -11,9 +11,10 @@
     "debug": "~2.2.0",
     "express": "~4.12.4",
     "jade": "~1.9.2",
+    "mongodb": "~1.4",
+    "mongoose": "^4.0.4",
     "morgan": "~1.5.3",
-    "serve-favicon": "~2.2.1",
-    "mongodb":"~1.4",
-    "mongoskin": "1.4.13"
+    "node-gyp": "^2.0.1",
+    "serve-favicon": "~2.2.1"
   }
 }
